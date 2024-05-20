@@ -1,0 +1,8 @@
+.heart-icon {
+    color: #000; /* Default color */
+  }
+  
+  .heart-icon.liked {
+    color: red; /* Color when liked */
+  }
+  

@@ -1,0 +1,65 @@
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #b19c9c89;
+  font-family: Arial, sans-serif;
+  }
+
+.first,
+.second {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media ul {
+  display: flex;
+  padding: 0;
+}
+
+.social-media ul li {
+  margin-right: 10px;
+}
+
+input[type="email"],
+button,
+select {
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: rgb(236, 229, 229);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5ea0e7;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .first,
+  .second {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
